@@ -1,0 +1,197 @@
+.create{
+    background-color: #292929;
+    background-image: url('../LandingPage/countries.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family:"Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    margin: 0%;
+    font-size: 150%;
+    padding-top: 1%;
+    display: grid;
+    color: white
+  
+}
+
+.Form{
+    border: 2px solid white;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #29292952;
+    font-weight: 600;
+    margin-left: 10%;
+    transform: 0% 10%;
+    color: white;
+
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+.Form input{
+    width: 90%;
+    height: 30px;
+    margin: 0.6rem;
+}
+
+
+.Form .Inputs{
+    border: 1px solid red;
+}
+
+.Form select{
+    width: 91%;
+    background-color: #111827;
+    border: none;
+    padding: 2%;
+    color: white;
+    appearance: button;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2)
+}
+
+.Form select::before{
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+
+
+.Form button{
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 2%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1.5%;
+
+}
+
+.Form button:hover {
+    background-color: #374151;
+   }
+   
+.Form button:focus {
+    box-shadow: none;
+    outline: 2px solid white;
+    outline-offset: 2px;
+   }
+
+.Form button:disabled{
+    background-color: #374151;
+}
+
+.Home{
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: -100%;
+}
+
+.Form li{
+    font-size: 70%;
+    height: 4vh;
+    
+
+}
+
+.Names{
+    background-color: #11182751;
+    border: 2px solid white;
+    margin-left: 45%;
+    margin-right: 20%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 11.2%;
+    font-weight: 600;
+    padding-left: 8%;
+    padding-right: 8%    
+}
+
+.Close{
+    border: 1px solid white;
+    justify-content: center;
+    font-size: 80%;
+    display: grid;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    grid-template-columns: 2
+}
+
+.Close button{
+
+    background-color: red;
+    text-align: right;
+    margin-left: 90%;
+    border: none;
+    color: white;
+    margin-top: 5%;
+    margin-right: 10px;
+    border-radius: 1rem;
+}
+
+.seasons{
+    background-color: #11182751;
+    border: 2px solid white;
+    margin-left: 75%;
+    margin-right: 20%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 11.2%;
+    font-weight: 600;
+    padding-left: 8%;
+    padding-right: 8%;  
+
+}
+
+
+  

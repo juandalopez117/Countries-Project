@@ -1,0 +1,106 @@
+.Countries{
+    margin-top: 5%;
+    padding: 2rem;
+    background-color: #2121217e;
+    width: 150%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 400000fr);
+    align-content: center;
+    text-decoration: none;
+    
+}
+
+.Pagination{
+    margin-bottom: 2rem;
+
+}
+
+.Header{
+    background-color: #212121;
+    color: white;
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin-bottom: -1%;
+
+}
+
+.Header div{
+    width: 33%;
+}
+
+.headerText{
+    padding-left: 4%;
+}
+
+.Refs{
+    text-align: center;
+    translate: 0% 50%  ;
+    padding-right: 2%;
+}
+
+
+
+.Bodyf{
+    background-image: url('../LandingPage/countries.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family:"Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+.NavBarg{
+    background-color: red;
+    padding-bottom: 2%
+}
+
+
+.Link{
+    text-decoration: none;
+    color: white;
+    padding-left: 24%;
+    font-size: 145%;
+}
+
+.ChargeAgain{
+    
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-top: 2.5%;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+    translate: -150% -10%;
+    height: 40%;
+    margin-left: -1%;
+} 
+
+.ChargeAgain:hover {
+    background-color: #374151;
+   }
+   
+   .ChargeAgain:focus {
+    box-shadow: none;
+    outline: 2px solid white;
+    outline-offset: 2px;
+   }

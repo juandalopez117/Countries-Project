@@ -1,0 +1,26 @@
+.button1 {
+    display: inline;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background: #111827;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: white;
+    margin-left: 1% ;
+   }
+
+
+   .button1:hover {
+    box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+    transform: translateY(-2px);
+    background-color: #07182E;
+    color: white
+   }
+

@@ -1,0 +1,97 @@
+.main{
+    background-color: #292929;
+    background-image: url('../LandingPage/countries.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family:"Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    padding-top: 1%;
+    padding-bottom: 20%;
+/*     margin-bottom: -20%; */
+    color: white;
+
+}
+
+.activsC{
+    display: grid;
+    margin: 2% ;
+    translate: 0% -15%
+}
+
+.activs{
+    margin-top: 2%;
+    width: 200px;
+    max-height: 600px;
+    text-align: left;
+    background-color: #29292965;
+    padding-top: 1%;
+    margin-left: 2%;
+    padding-bottom: 1%; 
+    border: 2px solid white;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    border-radius: 10%;
+    text-decoration-line: none;
+    float: left
+}
+.activs li{
+    margin-left: 15%
+}
+
+.empty{
+    background-color: #111827ab;
+    margin: 8%;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 3rem;
+}
+
+
+.ref{
+    font-size: 15px;
+    padding-top: 5px;
+;
+    transition: 0.3s;
+    height: 20px;
+    width:fit-content;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin-left: 10px;
+    translate: 0% -500%
+   }
+   
+   .btn:hover {
+    background-color: #374151;
+   }

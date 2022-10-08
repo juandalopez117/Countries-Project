@@ -1,0 +1,50 @@
+.Card{
+    background-color: #07182e85;
+
+    padding-top: 10%;
+    padding-bottom: 5%;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-left: 6%; 
+    margin-right: 6%; 
+    margin-bottom: 5%;
+    font-size: 100%;
+    font-display: none;
+    border-radius: 10%;
+    text-decoration-line: none;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+
+.Card:hover .Image {
+    transform: scale(1.1);
+    border:10px solid #666;
+   
+   }
+
+
+.Card h3{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: white;
+    text-decoration-line: none;
+}
+
+.Card h4{
+    Color: white
+}
+
+.line{
+    text-decoration-line: none;
+}
+
+
+.Image{
+    width:180px;
+    height:180px;
+    border-radius:150px;
+    border:10px solid #666;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
